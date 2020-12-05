@@ -1,3 +1,9 @@
+.jumbotron {
+    background-image: img src='/Images/img_3494';
+    background-size: cover;
+    height: 100%;
+}
+
 .jumbotron h1 {
     color: rgb(35, 179, 6);
     font-family: 'shift', Luminari, fantasy;
