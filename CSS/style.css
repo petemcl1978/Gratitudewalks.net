@@ -1,1 +1,4 @@
-Div
+.jumbotron h1 {
+    color: rgb(35, 179, 6);
+    font-family: 'shift', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
