@@ -20,5 +20,6 @@
 
 .jumbotron p {
     margin-left: -2%;
-    color: green;
+    margin-right: 50%;
+    color: rgb(35, 185, 35);
 }
