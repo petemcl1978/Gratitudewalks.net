@@ -1,52 +1,10 @@
+.navbar {
+    color: rgb(32, 166, 255);
+}
+
 .jumbotron {
-    position: relative;
-    overflow: hidden;
-}
-
-.jumbotron .container {
-    position: relative;
-    z index: 2;
-    bacground: rgba(0, 0, 0, 0.2);
-    padding: 2rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
-}
-
-.jumbotron-background {
-    object-fit: cover;
-    font-family: 'object-fit:cover;';
-    postion: absolute;
-    top: 0;
-    z-index: 1;
-    width: 30%;
-    height: 50%;
-    opacity: 0.5;
-}
-
-.img {
-    width: 25%;
-    height: auto;
-}
-
-img.blur {
-    -webkit-filter: blur(4px);
-    filter: blur(4px);
-    filter: progid: DXImageTransform.Microsoft.Blur(pixelRadius='4');
-}
-
-.jumbotron h1 {
-    color: rgb(35, 179, 6);
-    font-family: 'shift', Luminari, fantasy;
-    font-weight: bold;
-}
-
-.jumbotron h2 {
-    color: rgb(21, 88, 7);
-    font-family: 'shift', Luminari, Fantasy;
-}
-
-.jumbotron p {
-    color: rgb(13, 70, 2);
-    font-family: 'shift', luminari, fantasy;
-    font-weight: normal;
+    background-image: url("../Images/img_3494.jpg");
+    background-size: cover;
+    image height: 200%;
+    opacity: 60%;
 }
