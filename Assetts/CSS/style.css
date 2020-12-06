@@ -1,6 +1,6 @@
 .jumbotron {
     position: relative;
-    background-image: url("/Assetts/Images/IMG_3494.JPG");
+    background-image: url("../Assetts/Images/IMG_3494.jpg");
     width: 100%;
     background-size: cover;
     min-height: 600px;
