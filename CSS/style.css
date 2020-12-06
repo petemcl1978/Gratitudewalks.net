@@ -1,20 +1,24 @@
 .jumbotron {
+    position: relative;
     background-image: url("../Images/img_3494.jpg");
+    width: 100%;
     background-size: cover;
     min-height: 600px;
 }
 
 .jumbotron h1 {
+    font-size: 50px;
     color: green;
-    font-weight: 400;
-    font-family: "luminari, fantasy";
+    Font-family: "luminari", fantasy;
 }
 
 .jumbotron h2 {
+    font-size: 25px;
     color: green;
-    font-family: "fantasy";
+    font-family: "luminari", fantasy;
 }
 
 .jumbotron p {
+    margin-left: -2%;
     color: green;
 }
