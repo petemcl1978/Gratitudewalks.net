@@ -1,10 +1,20 @@
-.navbar {
-    color: rgb(32, 166, 255);
-}
-
 .jumbotron {
     background-image: url("../Images/img_3494.jpg");
     background-size: cover;
-    image height: 200%;
-    opacity: 60%;
+    min-height: 600px;
+}
+
+.jumbotron h1 {
+    color: green;
+    font-weight: 400;
+    font-style: "luminari, fantasy";
+}
+
+.jumbotron h2 {
+    color: green;
+    font-style: "fantasy";
+}
+
+.jumbotron p {
+    color: green;
 }

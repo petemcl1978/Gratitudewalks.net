@@ -1,1 +1,1 @@
-$(function() { objectFitImages() });
+//$(function() { objectFitImages() });
