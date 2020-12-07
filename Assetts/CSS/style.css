@@ -1,5 +1,5 @@
 .jumbotron {
-    background-image: url("https://Assetts/Images/IMG_3494.jpg");
+    background-image: url ("../IMG_3494.jpg");
     background-size: cover;
     min-height: 600px;
 }
@@ -7,17 +7,17 @@
 .jumbotron h1 {
     font-size: 50px;
     color: green;
-    Font-family: "URW Chancery L, cursive";
+    Font-family: "Apple Chancery", cursive;
 }
 
 .jumbotron h2 {
     font-size: 25px;
     color: green;
-    font-family: "cursive";
+    font-family: "apple Chancery", cursive;
 }
 
 .jumbotron p {
     margin-left: -2%;
     margin-right: 50%;
-    color: rgb(35, 185, 35);
+    color: rgb(7, 48, 228);
 }
