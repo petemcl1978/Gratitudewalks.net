@@ -1,23 +1,26 @@
-.jumbotron {
-    background-image: url ("");
-    background-size: cover;
-    min-height: 600px;
+/*
+Removes white gap between slides - chagnge to base color of slide images
+*/
+
+.carousel {
+    background: #007aeb;
 }
 
-.jumbotron h1 {
-    font-size: 50px;
-    color: green;
-    Font-family: "Apple Chancery", cursive;
+
+/*
+  Forces image to be 100% width and not max width of 100%
+  */
+
+.carousel-item .img-fluid {
+    width: 100%;
 }
 
-.jumbotron h2 {
-    font-size: 25px;
-    color: green;
-    font-family: "Apple Chancery", cursive;
-}
 
-.jumbotron p {
-    margin-left: -2%;
-    margin-right: 50%;
-    color: rgb(7, 48, 228);
+/* 
+  anchors are inline so you need ot make them block to go full width
+  */
+
+.carousel-item a {
+    display: block;
+    width: 100%;
 }
