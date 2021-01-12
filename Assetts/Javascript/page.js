@@ -1,1 +1,3 @@
-$('.carousel').carousel()
+$('#myCarousel').carousel({
+    interval: 3000,
+})
