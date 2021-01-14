@@ -1,3 +1,2 @@
-$('#myCarousel').carousel({
-    interval: 3000,
-})
+var myCarousel = document.querySelector('#myCarousel')
+var carousel = new bootstrap.Carousel(myCarousel)
