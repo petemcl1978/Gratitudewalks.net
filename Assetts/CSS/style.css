@@ -19,7 +19,7 @@
 body {
     background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
     font-family: 'Rubik', sans-serif;
-    background: #059de4;
+    background: #31530b;
     height: 100 !important
 }
 
@@ -27,7 +27,7 @@ body {
     overflow: hidden;
     margin-top: 250px;
     background: #212522;
-    color: #627482 !important;
+    color: #282e33 !important;
     margin-bottom: 0;
     padding-bottom: 0
 }
