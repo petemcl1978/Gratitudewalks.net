@@ -45,9 +45,12 @@
 
 /* position the "next button" to the right*/
 
-.next ( right: 0;
-border-radius:3px 0 0 3px;
-)
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
 /* on hover adda black background color with a little bit see through */
 
 .prev:hover,
