@@ -10,7 +10,7 @@
         box-sizing: border-box;
     }
     
-    img {
+    .img {
         vertical-align: middle;
     }
     /* Position the image container (needed to position the left and right arrows) */
@@ -22,6 +22,7 @@
     
     .mySlides {
         display: none;
+        width: 100%;
     }
     /* Add a pointer when hovering over the thumbnail images */
     
@@ -38,9 +39,9 @@
         width: auto;
         padding: 16px;
         margin-top: -50px;
-        color: rgb(241, 4, 4);
+        color: rgb(14, 0, 0);
         font-weight: bold;
-        font-size: 20px;
+        font-size: 60px;
         border-radius: 0 3px 3px 0;
         user-select: none;
         -webkit-user-select: none;
@@ -55,12 +56,12 @@
     
     .prev:hover,
     .next:hover {
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(211, 202, 202, 0.8);
     }
     /* Number text (1/3 etc) */
     
     .numbertext {
-        color: #f2f2f2;
+        color: #ee0b0b;
         font-size: 12px;
         padding: 8px 12px;
         position: absolute;
@@ -84,7 +85,8 @@
     
     .column {
         float: left;
-        width: 16.66%;
+        width: 15%;
+        height: 25%;
     }
     /* Add a transparency effect for thumnbail images */
     
@@ -104,70 +106,114 @@
 
     <div class="container">
         <div class="mySlides">
-            <div class="numbertext">1 / 10</div>
-            <img src="Images/IMG_2285.jpg" width="100%">
+            <div class="numbertext">1 / 15</div>
+            <img src="Images/IMG_2285.jpg">
         </div>
 
         <div class=" mySlides ">
-            <div class="numbertext ">2 / 10</div>
-            <img src="Images/GratitudeAirport.jpg " style="width:90% ">
+            <div class="numbertext ">2 / 15</div>
+            <img src="Images/GratitudeAirport.jpg" style="height:750px">
+        </div>
+
+        <div class=" mySlides ">
+            <div class="numbertext ">3 / 15</div>
+            <img src="Images/Doolin1.jpg ">
         </div>
 
         <div class="mySlides ">
-            <div class="numbertext ">3 / 10</div>
-            <img src="Images/Doolin1.jpg " style="width:100% ">
+            <div class="numbertext ">4 / 15</div>
+            <img src="Images/Mohersign.jpg ">
         </div>
 
         <div class="mySlides ">
-            <div class="numbertext ">4 / 10</div>
-            <img src="Images/Mohersign.jpg " style="width:100% ">
+            <div class="numbertext ">5 / 15</div>
+            <img src="Images/Signwalkingdistance.jpg ">
         </div>
 
         <div class="mySlides ">
-            <div class="numbertext ">5 / 10</div>
-            <img src="Images/Signwalkingdistance.jpg " style="width:100% ">
+            <div class="numbertext ">6 / 15</div>
+            <img src="Images/Cliffs1.jpg ">
         </div>
 
         <div class="mySlides ">
-            <div class="numbertext ">6 / 10</div>
-            <img src="Images/Cliffs1.jpg " style="width:100% ">
+            <div class="numbertext ">7 / 15</div>
+            <img src="Images/LongCliffs.jpg ">
+        </div>
+        <div class="mySlides ">
+            <div class="numbertext ">8 / 15</div>
+            <img src="Images/CliffsFlag.jpg ">
+        </div>
+        <div class="mySlides ">
+            <div class="numbertext ">9 / 15</div>
+            <img src="Images/CliffsSign.jpg ">
+        </div>
+        <div class="mySlides ">
+            <div class="numbertext ">10/15</div>
+            <img src="Images/waterfall.jpg ">
+        </div>
+        <div class="mySlides ">
+            <div class="numbertext ">11 / 15</div>
+            <img src="Images/Blennerville-Windmill.jpg ">
+        </div>
+        <div class="mySlides ">
+            <div class="numbertext ">12 / 15</div>
+            <img src="Images/IMG_2351.jpg ">
+        </div>
+        <div class="mySlides ">
+            <div class="numbertext ">13 / 15</div>
+            <img src="Images/irelandwlk1.jpg ">
         </div>
 
-        <div class="mySlides">
-            <div class="numbertext">7 / 10</div>
-            <img src="Images/LongCliffs.jpg" style="width:100%">
-        </div>
+        <a class="prev " onclick="plusSlides(-1) ">
+            <</a>
+                <a class="next " onclick="plusSlides(1) ">
+            ></a>
 
-        <a class="prev " onclick="plusSlides(-1) ">❮</a>
-        <a class="next " onclick="plusSlides(1) ">❯</a>
+                <div class="caption-container ">
+                    <p id="caption "></p>
+                </div>
 
-        <div class="caption-container ">
-            <p id="caption "></p>
-        </div>
-
-        <div class="row ">
-            <div class="column ">
-                <img class="demo cursor " src="Images/IMG_2285.jpg " style="width:100% " onclick="currentSlide(1) " alt="The Woods ">
-            </div>
-            <div class="column ">
-                <img class="demo cursor " src="Images/GratitudeAirport.jpg " style="width:100% " onclick="currentSlide(2) " alt="Cinque Terre ">
-            </div>
-            <div class="column ">
-                <img class="demo cursor " src="Images/Doolin1.jpg " style="width:100% " onclick="currentSlide(3) " alt="Mountains and fjords ">
-            </div>
-            <div class="column ">
-                <img class="demo cursor " src="Images/Mohersign.jpg " style="width:100% " onclick="currentSlide(4) " alt="Northern Lights ">
-            </div>
-            <div class="column ">
-                <img class="demo cursor " src="Images/Signwalkingdistance.jpg " style="width:100% " onclick="currentSlide(5) " alt="Nature and sunrise ">
-            </div>
-            <div class="column ">
-                <img class="demo cursor " src="Images/Cliffs1.jpg " style="width:100% " onclick="currentSlide(6) " alt="Snowy Mountains ">
-            </div>
-            <div class="column ">
-                <img class="demo cursor " src="Images/LongCliffs.jpg " style="width:100% " onclick="currentSlide(7) " alt="Cliffs">
-            </div>
-        </div>
+                <div class="row ">
+                    <div class="column ">
+                        <img class="demo cursor " src="Images/IMG_2285.jpg " style="width:25% " onclick="currentSlide(1) " alt="Pam and Steve at Logan Airport ">
+                    </div>
+                    <div class="column ">
+                        <img class="demo cursor " src="Images/GratitudeAirport.jpg " style="width:25% " onclick="currentSlide(2) " alt="This trip is for Gratitude ">
+                    </div>
+                    <div class="column ">
+                        <img class="demo cursor " src="Images/Doolin1.jpg " style="width:25% " onclick="currentSlide(3) " alt="Doolin town where the walk begins">
+                    </div>
+                    <div class="column ">
+                        <img class="demo cursor " src="Images/Mohersign.jpg " style="width:25% " onclick="currentSlide(4) " alt="First stop the Majestic Cliffs of Moher ">
+                    </div>
+                    <div class="column ">
+                        <img class="demo cursor " src="Images/Signwalkingdistance.jpg " style="width:25% " onclick="currentSlide(5) " alt="off to see the cliffs ">
+                    </div>
+                    <div class="column ">
+                        <img class="demo cursor " src="Images/Cliffs1.jpg " style="width:25% " onclick="currentSlide(6) " alt="O'Brien's Tower at The Cliffs of Moher.  ">
+                    </div>
+                    <div class="column ">
+                        <img class="demo cursor " src="Images/LongCliffs.jpg " style="width:25% " onclick="currentSlide(7) " alt="Long view along the Cliffs of Moher. ">
+                    </div>
+                    <div class="colum ">
+                        <img class="demo cursor " src="Images/CliffsFlag.jpg " style="width:5% " onclick="currentSlide(8) " alt="Pam showing her Irish pride at the Cliffs ">
+                    </div>
+                    <div class="colum ">
+                        <img class="demo cursor " src="Images/CliffsSign.jpg " style="width:5% " onclick="currentSlide(9) " alt=" ">
+                    </div>
+                    <div class="colum ">
+                        <img class="demo cursor " src="Images/waterfall.jpg " style="width:5% " onclick="currentSlide(10) " alt="Keeping it Dreamy ">
+                    </div>
+                    <div class="colum ">
+                        <img class="demo cursor " src="Images/Blennerville-Windmill.jpg " style="width:10% " onclick="currentSlide(11) " alt="Blennerville Windmill Tralee Ireland ">
+                    </div>
+                    <div class="colum ">
+                        <img class="demo cursor " src="Images/IMG_2351.jpg " style="width:10% " onclick="currentSlide(12) " alt="Ireland is for walking ">
+                    </div>
+                    <div class="colum ">
+                        <img class="demo cursor " src="Images/irelandwlk1.jpg " style="width:10% " onclick="currentSlide(13) " alt="Steve walking ">
+                    </div>
+                </div>
     </div>
 
     <script>
