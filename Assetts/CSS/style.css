@@ -59,3 +59,11 @@ h3 {
 .rights {
     font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
 }
+
+footer {
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(53, 70, 49);
+    color: white;
+}
