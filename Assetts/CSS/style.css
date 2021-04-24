@@ -80,4 +80,9 @@ footer h5 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+h6 {
+    text-align: right;
+    font-size: 10px
+}
+
 footer image {}
